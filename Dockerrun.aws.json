@@ -5,6 +5,7 @@
             "name": "client",
             "image": "msmoreira/multi-client",
             "hostname": "client",
+            "memory": 512,
             "essential": false
         },
         {
