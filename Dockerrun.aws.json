@@ -12,18 +12,21 @@
             "name": "server",
             "image": "msmoreira/multi-server",
             "hostname": "api",
+            "memory": 512,
             "essential": false
         },
         {
             "name": "worker",
             "image": "msmoreira/multi-worker",
             "hostname": "worker",
+            "memory": 256,
             "essential": false
         },
         {
             "name": "nginx",
             "image": "msmoreira/multi-nginx",
             "hostname": "nginx",
+            "memory": 256,
             "essential": true,
             "portMappings": [
                 {
